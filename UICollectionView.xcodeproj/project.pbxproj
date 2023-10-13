@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		EA48141E2A7404F000722DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48141D2A7404F000722DEB /* AppDelegate.swift */; };
 		EA4814202A7404F000722DEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48141F2A7404F000722DEB /* SceneDelegate.swift */; };
-		EA4814222A7404F000722DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4814212A7404F000722DEB /* ViewController.swift */; };
 		EA4814252A7404F000722DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4814232A7404F000722DEB /* Main.storyboard */; };
 		EA4814272A7404F300722DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4814262A7404F300722DEB /* Assets.xcassets */; };
 		EA48142A2A7404F300722DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4814282A7404F300722DEB /* LaunchScreen.storyboard */; };
+		EA4814322A74055F00722DEB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4814312A74055F00722DEB /* MenuViewController.swift */; };
+		EA4814362A740DBB00722DEB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4814342A740DBB00722DEB /* ProductCell.swift */; };
+		EA4814372A740DBB00722DEB /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4814352A740DBB00722DEB /* ProductCell.xib */; };
+		EA4814392A74144400722DEB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4814382A74144400722DEB /* Menu.swift */; };
+		EA552B6E2A749E8500CDF249 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA552B6C2A749E8500CDF249 /* GroupCell.swift */; };
+		EA552B6F2A749E8600CDF249 /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA552B6D2A749E8500CDF249 /* GroupCell.xib */; };
+		EAECA09A2A75A24600BABA71 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECA0992A75A24600BABA71 /* MainViewController.swift */; };
+		EAED46792A94BC9300194586 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAED46772A94BC9300194586 /* MainCell.swift */; };
+		EAED467A2A94BC9300194586 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAED46782A94BC9300194586 /* MainCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA48141A2A7404F000722DEB /* UICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA48141D2A7404F000722DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA48141F2A7404F000722DEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA4814212A7404F000722DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA4814242A7404F000722DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA4814262A7404F300722DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA4814292A7404F300722DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA48142B2A7404F300722DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4814312A74055F00722DEB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		EA4814342A740DBB00722DEB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		EA4814352A740DBB00722DEB /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		EA4814382A74144400722DEB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		EA552B6C2A749E8500CDF249 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		EA552B6D2A749E8500CDF249 /* GroupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupCell.xib; sourceTree = "<group>"; };
+		EAECA0992A75A24600BABA71 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EAED46772A94BC9300194586 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		EAED46782A94BC9300194586 /* MainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		EA48141C2A7404F000722DEB /* UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				EA4814332A740D4700722DEB /* MenuCells */,
 				EA48141D2A7404F000722DEB /* AppDelegate.swift */,
 				EA48141F2A7404F000722DEB /* SceneDelegate.swift */,
-				EA4814212A7404F000722DEB /* ViewController.swift */,
 				EA4814232A7404F000722DEB /* Main.storyboard */,
 				EA4814262A7404F300722DEB /* Assets.xcassets */,
 				EA4814282A7404F300722DEB /* LaunchScreen.storyboard */,
 				EA48142B2A7404F300722DEB /* Info.plist */,
+				EA4814312A74055F00722DEB /* MenuViewController.swift */,
+				EA4814382A74144400722DEB /* Menu.swift */,
+				EAECA0992A75A24600BABA71 /* MainViewController.swift */,
 			);
 			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		EA4814332A740D4700722DEB /* MenuCells */ = {
+			isa = PBXGroup;
+			children = (
+				EA4814342A740DBB00722DEB /* ProductCell.swift */,
+				EA4814352A740DBB00722DEB /* ProductCell.xib */,
+				EA552B6C2A749E8500CDF249 /* GroupCell.swift */,
+				EA552B6D2A749E8500CDF249 /* GroupCell.xib */,
+				EAED46772A94BC9300194586 /* MainCell.swift */,
+				EAED46782A94BC9300194586 /* MainCell.xib */,
+			);
+			path = MenuCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +127,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					EA4814192A7404F000722DEB = {
 						CreatedOnToolsVersion = 14.3;
@@ -126,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA48142A2A7404F300722DEB /* LaunchScreen.storyboard in Resources */,
+				EA4814372A740DBB00722DEB /* ProductCell.xib in Resources */,
 				EA4814272A7404F300722DEB /* Assets.xcassets in Resources */,
+				EA552B6F2A749E8600CDF249 /* GroupCell.xib in Resources */,
 				EA4814252A7404F000722DEB /* Main.storyboard in Resources */,
+				EAED467A2A94BC9300194586 /* MainCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA4814222A7404F000722DEB /* ViewController.swift in Sources */,
+				EAECA09A2A75A24600BABA71 /* MainViewController.swift in Sources */,
 				EA48141E2A7404F000722DEB /* AppDelegate.swift in Sources */,
+				EA4814362A740DBB00722DEB /* ProductCell.swift in Sources */,
 				EA4814202A7404F000722DEB /* SceneDelegate.swift in Sources */,
+				EA552B6E2A749E8500CDF249 /* GroupCell.swift in Sources */,
+				EA4814322A74055F00722DEB /* MenuViewController.swift in Sources */,
+				EA4814392A74144400722DEB /* Menu.swift in Sources */,
+				EAED46792A94BC9300194586 /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +242,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -216,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -262,6 +303,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -270,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
