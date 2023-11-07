@@ -1,7 +1,7 @@
 # UICollectionView
 
 ## Application for working with UICollectionView
-![Swift](https://img.shields.io/badge/Swift-5.0-red.svg)
+![Swift](https://img.shields.io/badge/Swift-5.9-red.svg)
 ![Version](https://img.shields.io/cocoapods/v/SwiftEntryKit.svg?style=flat-square)
 ![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)
 
